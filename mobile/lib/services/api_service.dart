@@ -1,20 +1,44 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/estacion.dart';
+import 'auth_service.dart';
+import '../models/estacion.dart'; // ← Asegúrate de que el nombre de este archivo coincida con el tuyo
 
 class ApiService {
-  // Nota: 10.0.2.2 es el localhost para el emulador Android.
-  // Si usa Linux Desktop o Web, use 'localhost'.
-  final String baseUrl = "http://127.0.0.1:8000";
+  final String baseUrl = "http://10.0.2.2:8000";
 
+  // 1. EL MÉTODO QUE FALTABA (Para leer las estaciones)
   Future<List<Estacion>> fetchEstaciones() async {
-    final response = await http.get(Uri.parse('$baseUrl/estaciones/'));
+    final token = await AuthService().getToken();
+    
+    final response = await http.get(
+      Uri.parse('$baseUrl/estaciones/'),
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer $token', // Añadimos el token de seguridad
+      },
+    );
 
     if (response.statusCode == 200) {
       List jsonResponse = json.decode(response.body);
       return jsonResponse.map((data) => Estacion.fromJson(data)).toList();
     } else {
-      throw Exception('Falla al conectar con el servidor SMAT');
+      throw Exception('Fallo al cargar las estaciones');
     }
+  }
+
+  // 2. EL MÉTODO NUEVO DEL LABORATORIO 6.2 (Para crear)
+  Future<bool> crearEstacion(String nombre, String ubicacion) async {
+    final token = await AuthService().getToken();
+    
+    final response = await http.post(
+      Uri.parse('$baseUrl/estaciones/'),
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer $token',
+      },
+      body: jsonEncode({'nombre': nombre, 'ubicacion': ubicacion}),
+    );
+    
+    return response.statusCode == 200;
   }
 }
