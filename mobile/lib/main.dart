@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'services/api_service.dart';
 import 'models/estacion.dart';
+import 'screens/lecturas_screen.dart';
 
 void main() => runApp(const SMATApp());
 
@@ -9,7 +10,7 @@ class SMATApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-        home: HomePage(), debugShowCheckedModeBanner: false);
+        home: const LecturasScreen(), debugShowCheckedModeBanner: false);
   }
 }
 

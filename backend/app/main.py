@@ -71,3 +71,6 @@ def editar_estacion(estacion_id: int, estacion_update: schemas.EstacionCreate, d
     db.commit()
     
     return {"mensaje": "Estación actualizada correctamente"}
+@app.get("/lecturas/", tags=["Telemetría"])
+def listar_lecturas(db: Session = Depends(database.get_db)):
+    return db.query(models.LecturaDB).all()
