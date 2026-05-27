@@ -1,4 +1,4 @@
-# Proyecto SMAT - Emulador de Telemetría IoT
+## Proyecto SMAT - Emulador de Telemetría IoT
 
 Este proyecto contiene un script en Python que simula un sensor físico de nivel de agua. Su función es enviar datos de telemetría de forma autónoma al servidor.
 
