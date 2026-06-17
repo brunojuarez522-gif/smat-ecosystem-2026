@@ -1,0 +1,414 @@
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781672202.6282442, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781672244.6468842, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781672268.6588335, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781672276.661249, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781672282.6635816, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781672952.286773, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673046.4414856, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673062.4469285, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673070.4493845, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673110.461947, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673114.463516, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673132.4687154, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673134.4695256, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673140.4730916, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673188.4904265, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673206.4982944, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673210.4998598, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673212.5010192, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673214.501692, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673222.5044236, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673228.5064142, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673232.5073688, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673268.5220633, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673284.5289092, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673318.5420165, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673334.5481815, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673336.5491652, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673356.5575156, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673362.561404, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673384.5685492, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673386.5693195, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673388.5699396, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673394.5719302, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673404.575715, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673434.5853958, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673454.5934129, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673456.5938761, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673486.6047814, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673494.6072607, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673508.6125717, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673512.6138315, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673518.616249, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673522.617403, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673530.6203732, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673532.6209984, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673552.627149, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673556.628571, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673566.6313767, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673580.6350808, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673592.6392283, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673598.64089, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673600.6413877, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673640.7189088, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673644.7198896, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673650.7221713, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673652.7246366, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673658.7268085, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673664.729321, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673682.7364671, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673684.7378623, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673696.7420385, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673704.745791, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673706.7463808, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 1, "timestamp": 1781673718.750758, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/1/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 1, "timestamp": 1781673734.757691, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673744.762042, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673748.763155, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be less than or equal to 100 [type=less_than_equal, input_value=150.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+Payload: {"sensor_id": 2, "timestamp": 1781673756.7663653, "valor": 150.0, "unidad": "Celsius"}
+---
+ERROR DE INTEGRIDAD en unmsm/callao/camara/2/telemetria: 1 validation error for LecturaSensor
+valor
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='ERROR_HARDWARE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_parsing
+Payload: {"sensor_id": 2, "timestamp": 1781673780.7763288, "valor": "ERROR_HARDWARE", "unidad": "Celsius"}
+---

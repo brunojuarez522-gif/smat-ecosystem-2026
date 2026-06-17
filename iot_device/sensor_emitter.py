@@ -4,7 +4,7 @@ import random
 
 # CONFIGURACIÓN
 API_URL = "http://localhost:8000/lecturas/" # 
-ESTACION_ID = 1  # ID de la estación que queremos simular
+ESTACION_ID = 1  # ID de la estación 
 TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbl9maXNpIiwiZXhwIjoxNzc5ODk5MjMyfQ.3aYcViiOu_WFKU2SHM9HEEUjiLyCgzCnF9RAZqSEmqM"
 
 def leer_sensor_emulado():
@@ -35,7 +35,7 @@ def enviar_telemetria():
         except Exception as e:
             print(f"[CRÍTICO] No hay conexión con el servidor: {e}")
             
-        # LÓGICA DEL RETO: Alerta de Desborde y Frecuencia Dinámica 
+        # Alerta de Desborde y Frecuencia Dinámica 
         if valor > 70.0: # 
             print("[ALERTA] Umbral de inundación superado.") 
             time.sleep(2)  # Modo de Emergencia
