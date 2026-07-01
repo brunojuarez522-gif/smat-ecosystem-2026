@@ -3,13 +3,14 @@ import requests
 import json
 import sys
 import time
+import os 
 
 # CONFIGURACIÓN DEL ENTORNO SMAT
 MQTT_BROKER = "broker.hivemq.com"
 MQTT_PORT = 1883
 MQTT_TOPIC = "unmsm/callao/camara/+/telemetria"
-API_URL = "http://127.0.0.1:8000/lecturas/"
-JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbl9maXNpIiwiZXhwIjoxNzgxNjc4NDIzfQ.F1ZKqja_RfLZwvhC9--rrHrdEQB03xApcTwkFP8DRZY"
+API_URL = os.environ.get("API_URL", "http://127.0.0.1:8000/lecturas/")
+JWT_TOKEN = os.environ.get("JWT_TOKEN", "pega_tu_token_aqui_por_si_acaso")
 
 # MEMORIA CACHÉ PARA EL FILTRO DE RUIDO
 estacion_cache = {}

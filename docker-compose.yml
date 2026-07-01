@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # El Servidor API
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - smat_sqlite_data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:////app/data/smat.db
+    # Healthcheck
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:8000/docs"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+
+  # El traductor de protocolos IoT
+  mqtt_bridge:
+    build: ./iot_device
+    depends_on:
+      backend:
+        # El bridge esperará a que el healthcheck sea exitoso antes de iniciar
+        condition: service_healthy 
+    environment:
+      - API_URL=http://backend:8000/lecturas/ 
+      - JWT_TOKEN=Pega_Aqui_Tu_Token_JWT_Valido
+
+volumes:
+  smat_sqlite_data: # Define el volumen para persistencia
